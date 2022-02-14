@@ -1,0 +1,138 @@
+#header{
+  position: fixed;
+  background-color: rgb(34, 53, 80);
+  width: 100%;
+  height: 80px;
+  top: 0px;
+  left: 0px;
+  z-index: 200;
+}
+#icon{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+body{
+  background-color: rgb(66, 99, 150);
+}
+#headerText{
+  position: fixed;
+  text-align: center;
+  left: 85px;
+  top: 10px;
+  text-shadow: 
+    -1px -1px 0 rgb(66, 99, 150),
+     0   -1px 0 rgb(66, 99, 150),
+     1px -1px 0 rgb(66, 99, 150),
+     1px  0   0 rgb(66, 99, 150),
+     1px  1px 0 rgb(66, 99, 150),
+     0    1px 0 rgb(66, 99, 150),
+    -1px  1px 0 rgb(66, 99, 150),
+    -1px  0   0 rgb(66, 99, 150);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+#nav{
+  position: fixed;
+  left: 300px;
+  top: 5px;
+
+}
+
+#nav li{
+  float: left;
+  padding: 10px;
+  list-style-type: none;
+  color: white;
+}
+#nav a{
+  color: white;
+  text-shadow: 
+    -1px -1px 0 rgb(66, 99, 150),
+     0   -1px 0 rgb(66, 99, 150),
+     1px -1px 0 rgb(66, 99, 150),
+     1px  0   0 rgb(66, 99, 150),
+     1px  1px 0 rgb(66, 99, 150),
+     0    1px 0 rgb(66, 99, 150),
+    -1px  1px 0 rgb(66, 99, 150),
+    -1px  0   0 rgb(66, 99, 150);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+li a:hover {
+  background: rgb(66, 99, 150)
+}
+
+#castleMain{
+  position: relative;
+  top: 70px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 50%;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1.info{
+  position: relative;
+  top: 55px;
+  color: white;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p.detail{
+  position: relative;
+  top: 45px;
+  font-size: 18px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#interior{
+  position: relative;
+  top: 40px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 50%;
+  padding: 0px;
+  margin: 0px;
+}
+table{
+  position: relative;
+  top: 40px;
+  color: white;
+  text-align: left;
+  border: 1px solid;
+}
+table td{
+  padding: 5px;
+  border: 1px solid;
+}
+table th{
+  padding: 0px;
+  margin: 0px;
+}
+table tr:hover {background-color: 
+rgb(80, 123, 187)}
+
+footer{
+  position: relative;
+  top: 70px;
+  width: 100%;
+  height: 40px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(34, 53, 80);
+  color: white;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
