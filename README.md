@@ -13,5 +13,7 @@
 
 ## Feedback
 
-Once you commit and submit your work to Github, I'll update this section with feedback.
+S
+
+Yep, that's the nature of HTML and CSS, for better or worse.  Nicely done!
 
